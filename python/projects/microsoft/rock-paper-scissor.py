@@ -1,0 +1,11 @@
+class Participant:
+    def __init__(self):
+        self.points = 0
+        self.choice = ""
+class GameRound:
+    
+class Game:
+    def __init__(self):
+        self.endgame = False
+        self.participant= Participant()
+        
