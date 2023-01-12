@@ -32,3 +32,43 @@ Cargo is the package manage of Rust. Most people install Cargo to build basic Ru
 
 -----------------------------------------------------------
 ### Chapter 2 
+* Building a Guessing Game
+
+``` rust 
+use std::io; // import the std from the io library
+
+fn main() {
+    println!("Guess the number!");
+
+    println!("Please input your guess.");
+
+    let mut guess = String::new();
+
+    io::stdin()
+        .read_line(&mut guess)
+        .expect("Failed to read line");
+
+    println!("You guessed: {guess}");
+}
+
+// it prints two (2) outputs. Asking for the user input
+// It stores the variable in a changable (mut) instance for later usage.
+// Prints the result backs to the user.
+``` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
