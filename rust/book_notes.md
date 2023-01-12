@@ -11,7 +11,7 @@ fn main() {
     println!("Hello, world!");
 }
 ```
-[^1] How to Run normal Rust code:
+== How to Run normal Rust code: == 
 
 Run on the terminal with this code:
 
