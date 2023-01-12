@@ -1,6 +1,6 @@
 # Rust Book Notes
 -----------------------------------------------------------
-|------------: Chapter 1: -------------------|
+: Chapter 1
 
 Rust is a low-level language that uses concepts to be easy to follow and understand.
 
@@ -11,7 +11,7 @@ fn main() {
     println!("Hello, world!");
 }
 ```
-== How to Run normal Rust code: == 
+## How to Run normal Rust code: 
 
 Run on the terminal with this code:
 
