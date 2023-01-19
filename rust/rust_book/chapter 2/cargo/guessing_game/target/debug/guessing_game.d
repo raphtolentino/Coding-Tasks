@@ -1,1 +1,0 @@
-C:\Users\Raphael\Desktop\USB\ Files\rust\rust_book\projects\cargo\guessing_game\target\debug\guessing_game.exe: C:\Users\Raphael\Desktop\USB\ Files\rust\rust_book\projects\cargo\guessing_game\src\main.rs
