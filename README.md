@@ -1,8 +1,19 @@
-# coding_tasks
-A repo with all my coding tasks
+# Coding Tasks
 
-> Cyther is for cyber security tasks
+## Description
 
-> Go is for golang tasks
+A repository for my coding tasks, with different coding languages.
 
-> Rust is for rust tasks
+## Table of Contents
+
+> - Cyther - [#cyther#](/cyther)
+
+This a repository for my cyther tasks. It contains the tasks that I have completed for the cyther courses.
+
+> - Go - [#go](/Go/)
+
+This a repository for my GO tasks. It contains the tasks from the book version.
+
+> - Rust - [#Rust](/rust/)
+
+This a repository for my Rust book tasks and notes. It contains the tasks from the book version.
