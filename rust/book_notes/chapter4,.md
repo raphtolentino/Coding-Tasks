@@ -151,5 +151,47 @@ fn main(){
 
 - In the String version, the pointer, length, and capacity is stored in the stack. Only the pointer is copied not the data.
 
-image.png
+This code will generate an error, but it's useful to understand this example:
 
+``` rust
+fn main(){
+    let s1 = String::from("hello");
+    let s2 = s1;
+    println!("{}, world!", s1);
+}
+```
+
+Rust will generates this error
+
+``` bash
+
+$ cargo run
+   Compiling ownership v0.1.0 (file:///projects/ownership)
+error[E0382]: borrow of moved value: `s1`
+ --> src/main.rs:5:28
+  |
+2 |     let s1 = String::from("hello");
+  |         -- move occurs because `s1` has type `String`, which does not implement the `Copy` trait
+3 |     let s2 = s1;
+  |              -- value moved here
+4 |
+5 |     println!("{}, world!", s1);
+  |                            ^^ value borrowed here after move
+  |
+  = note: this error originates in the macro `$crate::format_args_nl` which comes from the expansion of the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+For more information about this error, try `rustc --explain E0382`.
+error: could not compile `ownership` due to previous error
+```
+> Variable and Data Interacting with Clone
+
+If we do want to deeply copy the heap data of the String, not just the stack data, we can use a common method called **clone**. This is an example of this method
+
+``` rust
+fn main(){
+    let s1 = String::from("hello");
+    let s2 = s1.clone();
+    println!("s1 = {} , s2 = {}", s1,s2);
+}
+```
+T
