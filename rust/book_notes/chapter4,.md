@@ -10,7 +10,9 @@ Ownership refers to a rule set that dictates for Rust manages memory.
 
 - 3. Rust is a bit different, it uses a ownership system with a set of rules that checks alongside of the company. If any rules are violeted the program will not run.
 
-## The Stack and the Heap part 1
+## The Stack and the Heap
+
+### Part 1: Definitions
 
 > The Stack
 
@@ -42,9 +44,7 @@ As the heap pointer is defined and know being fixed data, the porgrammer can sto
 
 3. As more people arrives from the group, they can ask where the group is seated.
 
-## The Stack and The Heap part 2
-
-> Pushing and Accessing data Comparisons
+## Part 2 : Pushing and Accessing data Comparisons
 
 - Pushing data to the stack is faster than allocating on the heap, because the allocator never has to search for a place to store new data, as that location is always at the top of the stack.
 
