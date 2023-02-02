@@ -1,0 +1,1 @@
+C:\Users\Raphael\Desktop\code\coding_tasks\coding_tasks\rust\rust_book_tasks\chapter_4\owner\target\debug\owner.exe: C:\Users\Raphael\Desktop\code\coding_tasks\coding_tasks\rust\rust_book_tasks\chapter_4\owner\src\main.rs

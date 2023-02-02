@@ -57,7 +57,7 @@ The value of x is: 6
 
 > Chapter 3.1: Constants in Rust
 
-*Like with immutable variables, ***constant*** are values bounded to a name and it not changable. But there are differences between const and variables:*
+Like with immutable variables, **constant** are values bounded to a name and it not changable. But there are differences between const and variables:
 
 - First constansts are always immutable (mut are not allowed).
 - Second, constants can be declared in any scope, including the global scope.
