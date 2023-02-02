@@ -232,7 +232,7 @@ x = 5, y = 5
 5. Tuples, if they only contain types that also implement Copy. For example, (i32, i32)
 6. Implements Copy, but (i32, String) does not.
 
-> Ownership and Functions
+ ## Ownership and Functions
 
 - The method of passing down a value to other functions are similar to those when assign a value to a variable. Look at the code bellow:
 
@@ -269,7 +269,7 @@ hello
 5
 ```
 
-> Return Value and Scope
+## Return Value and Scope
 
 - Return value can also transfer ownership. The code bellow explains it:
 
@@ -309,7 +309,7 @@ fn takes_and_gives_back(a_string: String) -> String {
 // 3. the variable "a string" is returnhed and moves out to the calling function.
 ```
 
-> Transferring ownership of return values
+## Transferring ownership of return values
 
 - The onwership of a variable follows the same pathern every time:
 
