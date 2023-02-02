@@ -10,7 +10,7 @@ Ownership refers to a rule set that dictates for Rust manages memory.
 
 - 3. Rust is a bit different, it uses a ownership system with a set of rules that checks alongside of the company. If any rules are violeted the program will not run.
 
-## The Stack and the Heap pt1
+## The Stack and the Heap part 1
 
 > The Stack
 
@@ -44,9 +44,12 @@ As the heap pointer is defined and know being fixed data, the porgrammer can sto
 
 ## The Stack and The Heap part 2
 
+> Pushing and Accessing data Comparisons
 
-Pushing data to the stack is faster than allocating on the heap, because the allocator never has to search for a place to store new data, as that location is always at the top of the stack.
+- Pushing data to the stack is faster than allocating on the heap, because the allocator never has to search for a place to store new data, as that location is always at the top of the stack.
 
-Allocating data in the heap is more work, because the allocator needs to find first a memory location that is big enough to hold the data and peform bookeeping to prepare the next allocation.
+- Allocating data in the heap is more work, because the allocator needs to find first a memory location that is big enough to hold the data and peform bookeeping to prepare the next allocation.
 
-When the code calls a function, the values passed into that function (data pointers on the heap) and the local variables get placed back onto the stack. When the function ends, these values are placed off the stack.
+- When the code calls a function, the values passed into that function (data pointers on the heap) and the local variables get placed back onto the stack. When the function ends, these values are placed off the stack.
+
+- Accessing data located in the heap is also slower. Modern CPU's are fasted and use less memory to perform these tasks.
