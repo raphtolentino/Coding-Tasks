@@ -44,7 +44,7 @@ As the heap pointer is defined and know being fixed data, the porgrammer can sto
 
 3. As more people arrives from the group, they can ask where the group is seated.
 
-## Part 2 : Pushing and Accessing data Comparisons
+### Part 2 : Pushing and Accessing data Comparisons
 
 - Pushing data to the stack is faster than allocating on the heap, because the allocator never has to search for a place to store new data, as that location is always at the top of the stack.
 
