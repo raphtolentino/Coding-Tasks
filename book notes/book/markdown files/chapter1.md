@@ -1,50 +1,34 @@
-# Security Intro Notes [ISC2 and Book Notes]
 
-- [Security Intro Notes \[ISC2 and Book Notes\]](#security-intro-notes-isc2-and-book-notes)
-  - [Sources](#sources)
-  - [Chapter 1](#chapter-1)
-    - [Section 1 - Foundation Topics](#section-1---foundation-topics)
-    - [**********************Confidentiality**********************](#confidentiality)
-    - [******************Integrity******************](#integrity)
-    - [****************************Availability****************************](#availability)
-  - [The AAA of Computer Security](#the-aaa-of-computer-security)
-    - [Authentication](#authentication)
-    - [Authorisation](#authorisation)
-    - [Accounting](#accounting)
-  - [Non-repudiation](#non-repudiation)
-  - [Privacy](#privacy)
-- [Section 2: The basics of Information Security](#section-2-the-basics-of-information-security)
-  - [Information Security](#information-security)
-    - [Malicious software](#malicious-software)
-    - [Unauthorised access](#unauthorised-access)
-    - [System Failure](#system-failure)
-    - [Social Engineering](#social-engineering)
-  - [Proactive Security Plan](#proactive-security-plan)
-    - [Physical](#physical)
-    - [Technical](#technical)
-    - [Administrative](#administrative)
-    - [Anti-Malware software](#anti-malware-software)
-    - [Data Backup](#data-backup)
-    - [Encryption](#encryption)
-    - [Data Removal](#data-removal)
-- [Section 3 : Think Like a Hacker](#section-3--think-like-a-hacker)
-    - [White Hats](#white-hats)
-    - [Black Hats](#black-hats)
-    - [Grey Hats](#grey-hats)
-    - [Blue Hats](#blue-hats)
-- [Glossary](#glossary)
-- [Chapter Review Activities](#chapter-review-activities)
-    - [Review Questions (9/11)](#review-questions-911)
-    - [Questions](#questions)
-    - [Answers](#answers)
+- [1. Section 2: The basics of Information Security](#1-section-2-the-basics-of-information-security)
+  - [1.1. Information Security](#11-information-security)
+    - [1.1.1. Malicious software](#111-malicious-software)
+    - [1.1.2. Unauthorised access](#112-unauthorised-access)
+    - [1.1.3. System Failure](#113-system-failure)
+    - [1.1.4. Social Engineering](#114-social-engineering)
+  - [1.2. Proactive Security Plan](#12-proactive-security-plan)
+    - [1.2.1. Physical](#121-physical)
+    - [1.2.2. Technical](#122-technical)
+    - [1.2.3. Administrative](#123-administrative)
+    - [1.2.4. Anti-Malware software](#124-anti-malware-software)
+    - [1.2.5. Data Backup](#125-data-backup)
+    - [1.2.6. Encryption](#126-encryption)
+    - [1.2.7. Data Removal](#127-data-removal)
+- [2. Section 3 : Think Like a Hacker](#2-section-3--think-like-a-hacker)
+    - [2.0.1. White Hats](#201-white-hats)
+    - [2.0.2. Black Hats](#202-black-hats)
+    - [2.0.3. Grey Hats](#203-grey-hats)
+    - [2.0.4. Blue Hats](#204-blue-hats)
+- [3. Glossary](#3-glossary)
+- [4. Chapter Review Activities](#4-chapter-review-activities)
+    - [4.0.1. Review Questions (9/11)](#401-review-questions-911)
+    - [4.0.2. Questions](#402-questions)
+    - [4.0.3. Answers](#403-answers)
 
-## Sources
+## 0.1. Sources
 
-Book : [Title](../../Downloads/books/cyberbook.pdf)
+## 0.2. Chapter 1
 
-## Chapter 1
-
-### Section 1 - Foundation Topics
+### 0.2.1. Section 1 - Foundation Topics
 
 1. CIA Triad
 
@@ -52,7 +36,7 @@ What is the CIA triad ?
 
 - The purpose of the CIA triad is to provide relevant security knowledge using easy words.
 
-### **********************Confidentiality**********************
+### 0.2.2. **********************Confidentiality**********************
 
 Characteristics of preventing the disclosure of information/data to unauthorised persons. For example Passport id number is confidential as its contain sensitive information.
 
@@ -64,7 +48,7 @@ Its important to follow regulations:
 - ******************************************PHI (Personally Health Information)****************************************** refers to any health data about an individual that could be used to identify them.
 - **********Classified or Sensitive Information********** is also a factor that involves trade secrets, research and other IPs.
 
-### ******************Integrity******************
+### 0.2.3. ******************Integrity******************
 
 Characteristics of data or system content being completed, correct and consistent.
 
@@ -73,16 +57,16 @@ Characteristics of data or system content being completed, correct and consisten
 
 The data or system integrity state can modify by comparing the baseline against the current state. If these two factors match, the system is secured.
 
-### ****************************Availability****************************
+### 0.2.4. ****************************Availability****************************
 
 - Characteristics of timely and reliably access to information and being able to use it. For authorised users to have timely, reliable access to data and information.
 - This does not mean that data/system need to be available 100% of the time. But, the data/system need to meet timely and reliability requirements.
 
-## The AAA of Computer Security
+## 0.3. The AAA of Computer Security
 
 What is the AA of Computer Security:
 
-### Authentication
+### 0.3.1. Authentication
 
 Characteristics of validating a person established identity with proof and confirmed by a system. It can be granted by:
 
@@ -95,7 +79,7 @@ There’s two authentication method types used in security.
 - **Single Factor Authentication (SFA)** refers to single methods that does not require extra security to login-in to a system.
 - Multi **Factor Authentication (MFA)** refers to single methods that require extra security to login-in to a system.
 
-### Authorisation
+### 0.3.2. Authorisation
 
 Characteristics of giving users access to certain data of a building. It is used after authentication and can be provided in several ways:
 
@@ -104,7 +88,7 @@ Characteristics of giving users access to certain data of a building. It is used
 - Time of Day restrictions
 - Login or Physical restrictions
 
-### Accounting
+### 0.3.3. Accounting
 
 Characteristics of tracking data, computer usage and network resources. It involves having proof if someone performed unauthorised actions. It involves:
 
@@ -139,7 +123,7 @@ Somewhere the user is:
 
 ---
 
-## Non-repudiation
+## 0.4. Non-repudiation
 
 A legal term defined as protection against a individual falsely denying having performed a particular action, such as:
 
@@ -147,21 +131,21 @@ A legal term defined as protection against a individual falsely denying having p
 - Approving Information
 - Sending and receiving messages
 
-## Privacy
+## 0.5. Privacy
 
 The Right to control the distribution of information about them self.
 
 ---
 
-# Section 2: The basics of Information Security
+# 1. Section 2: The basics of Information Security
 
-## Information Security
+## 1.1. Information Security
 
 What is Information Security:
 
 It refers to the act of protecting data and information system from ****************************************************************************************************************unauthorised access, unlawful modification and disruption, corruption and destruction.****************************************************************************************************************
 
-### Malicious software
+### 1.1.1. Malicious software
 
 It refers to malware software intended for unlawful practises. It can be:
 
@@ -172,7 +156,7 @@ It refers to malware software intended for unlawful practises. It can be:
 - Ransomware : Locks the computer and demands payment.
 - Crypto-malware: mines crypto in the background
 
-### Unauthorised access
+### 1.1.2. Unauthorised access
 
 It having unauthorised access to computer resources without knowledge or permission of the owner. This includes:
 
@@ -183,9 +167,9 @@ It having unauthorised access to computer resources without knowledge or permiss
 - Intercepting data
 - Others
 
-### System Failure
+### 1.1.3. System Failure
 
-### Social Engineering
+### 1.1.4. Social Engineering
 
 It refers to computer crashes or individual application failure. It can be caused by
 
@@ -199,11 +183,11 @@ It refers to the act of manipulating users into revealing confidential informati
 - Asking for ************************************************************personal information (or money).************************************************************
 - Others
 
-## Proactive Security Plan
+## 1.2. Proactive Security Plan
 
 It is important to look after 3 categories of controls.
 
-### Physical
+### 1.2.1. Physical
 
 Physical Items like:
 
@@ -214,7 +198,7 @@ Physical Items like:
 - Security Guards
 - Others
 
-### Technical
+### 1.2.2. Technical
 
 Technical Items like:
 
@@ -223,7 +207,7 @@ Technical Items like:
 - Encryption
 - Network Authentication
 
-### Administrative
+### 1.2.3. Administrative
 
 Policies and Procedures designed to prevent this stuff to happens:
 
@@ -232,14 +216,14 @@ Policies and Procedures designed to prevent this stuff to happens:
 - Disasters recovery plans
 - Others
 
-### Anti-Malware software
+### 1.2.4. Anti-Malware software
 
 It refers to software aimed to protect a computer from different malware, by detecting and removing them. It can be:
 
 - Antivirus
 - Anti-Spyware software
 
-### Data Backup
+### 1.2.5. Data Backup
 
 To create a copy of the original data. Used to remove data after an attack or other compromise, or system failure.
 
@@ -248,7 +232,7 @@ It can be done with RAID 1,5,6 and 10 versions to prevent hardware failure:
 - Windows Backup and Restore
 - Bacula
 
-### Encryption
+### 1.2.6. Encryption
 
 It refers to changing information of a file using a algorithm (cyphers) to make unreadable to anyone that does not have the correct key. The most popular encryption method is:
 
@@ -257,19 +241,19 @@ It refers to changing information of a file using a algorithm (cyphers) to make 
 - Secure/Multipurpose Internet Mail Extensions
 - Pretty Good Privacy
 
-### Data Removal
+### 1.2.7. Data Removal
 
 The act of removing data. It goes far beyond of removing by deleting data. It involves purging the residue and dealing with ensuring that it cannot be recovered.
 
-# Section 3 : Think Like a Hacker
+# 2. Section 3 : Think Like a Hacker
 
-### White Hats
+### 2.0.1. White Hats
 
 Non-Malicious hackers that attempts to hack info a computer system with the owner permissions. Usually this type of hackers has a contractual agreement to enter the system.
 
 A Ethical hacker is a expert at breaking into systems and can hack into systems on behalf of the system owner with prior permissions. They use PenTesting and Intrusion testing tools to target a network.
 
-### Black Hats
+### 2.0.2. Black Hats
 
 Malicious hackers, that attempts to break into computers without authorizations. They are the hacker group responsible for:
 
@@ -280,17 +264,17 @@ Malicious hackers, that attempts to break into computers without authorizations.
 
 The penalty for these crimes are severe.
 
-### Grey Hats
+### 2.0.3. Grey Hats
 
 Individuals that is between black and white hat hacking. They break into systems then notify the admin of the system that that they were successfully in doing do. They do not do anything else than breaking in.
 
 Some offers to fix those issues, but they are considered **green hats**.
 
-### Blue Hats
+### 2.0.4. Blue Hats
 
 Individuals that are asked to attempt to hack into a system by an organisation, but they are not employed by them.
 
-# Glossary
+# 3. Glossary
 
 <aside>
 🔑 **State** : the condition of an entity at a specific point in time
@@ -316,11 +300,11 @@ S**********ensitivity :********** the measure of importance by its owner; for th
 
 ---
 
-# Chapter Review Activities
+# 4. Chapter Review Activities
 
-### Review Questions (9/11)
+### 4.0.1. Review Questions (9/11)
 
-### Questions
+### 4.0.2. Questions
 
 1. In information security, what are the three main goals? (Select the three best
 answers.)
@@ -390,7 +374,7 @@ B. When it is assessed for vulnerabilities
 C. When all anomalies have been removed
 D. Never
 
-### Answers
+### 4.0.3. Answers
 
 1. B, D, F
 2. A
