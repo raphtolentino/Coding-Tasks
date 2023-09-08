@@ -4,26 +4,30 @@
 
 ### Key Words
 
-1. Virus
-   1. Code tht run without user knowledge. It infects when the computer is acessed and executed.
-   2. Examples: LoveBug
-2. Worm
-   1. Malware that self-duplicates. Virus dont self-duplicates.
-   2. Email Worm
-3. Trojan Horse
-   1. Malware code that works in the background acting like a legitimate program
-   2. PlugX
-4. Ransomware
-   1. Malware that encrypts files and ask for a ransom (crypto)
-   2. CryptoLocker
-5. Spyware
-   1. Malware sofware that is installed from a website alongside desired software
-   2. Internet Optmiser softwares.
-6. Rootkit
-   1. Software used to gain admin-level control without being detected. Can target BIOS/UEFI and kernel levels.
-   2. Evil Maid Attack
-7. Spam
-   1. Sending countless emails to other people with malicious intend.
-      1. Phishing emails
-   
-   
+- Virus
+  - Explanation :  Code tht run without user knowledge. It infects when the computer is acessed and executed.
+  - Example: LoveBug
+  
+- Worm
+  - Explanation : Malware that self-duplicates to infect files. Virus **do not** self duplicate
+  - Example: Email Worm
+
+- Trojan Horse
+  - Explanation : Malware code that infects files in the background acting like a legitimate program.
+  - Example: PlugX
+  
+- Ransomware
+  - Explanation : Malware that encrypts files and request a ransom to decript. It asks for crypto currency as a payment option
+  - Example: CryptoLocker and WannaCry.
+  
+- Spyware
+  - Explanation : Unwanted software that is installed alongside legitimate software.
+  - Example: Internet Optmiser sofware.
+  
+- Rootkit
+  - Explanation : Software used to gain admin-level control without being detected. Can target BIOS/UEFI and kernel levels.
+  - Example: Evil Maid
+
+- Spam
+  - Explanation Sending countless emails to other people with malicious intend.
+  - Examples: Phishing Emails
