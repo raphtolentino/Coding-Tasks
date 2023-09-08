@@ -22,8 +22,8 @@ This a repository for my Rust book tasks and notes. It contains the tasks from t
 
 A repository for my book notes and tasks
 
-> - [ISC2 Notes](/Coding-Tasks/book%20notes/isc2%20notes/)
+> - [ISC2 Notes](/Coding-Tasks/book%20notes/isc2%20notes/isc2.md)
 
-> - [Cyber Book](/Coding-Tasks/book%20notes/book/)
+> - [Cyber Book](/Coding-Tasks/book%20notes/book/book.md)
 
-> - [Road Map Notes](/Coding-Tasks/book%20notes/roadmap/)
+> - [Road Map Notes](/Coding-Tasks/book%20notes/roadmap/roadmap.md)
