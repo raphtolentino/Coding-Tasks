@@ -18,5 +18,6 @@ This a repository for my GO tasks. It contains the tasks from the book version.
 
 This a repository for my Rust book tasks and notes. It contains the tasks from the book version.
 
-> - [Notes](/booknotes)
+> - [Notes](/book%20notes/)
+> - 
 This is a repository for Cyber book, ISC2 notes and Roadmap content. It contains all notes and tasks from this version
