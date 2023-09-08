@@ -17,3 +17,13 @@ This a repository for my GO tasks. It contains the tasks from the book version.
 > - [Rust](/rust/)
 
 This a repository for my Rust book tasks and notes. It contains the tasks from the book version.
+
+### Book Notes
+
+A repository for my book notes and tasks
+
+> - [ISC2 Notes](/Coding-Tasks/book%20notes/isc2%20notes/)
+
+> - [Cyber Book](/Coding-Tasks/book%20notes/book/)
+
+> - [Road Map Notes](/Coding-Tasks/book%20notes/roadmap/)
