@@ -1,3 +1,0 @@
-Project log
-
-This project was coded in Python.
